@@ -28,6 +28,14 @@ sudo ./setup.sh
 docker exec -it t1_start bash or ssh root@localhost -p 2222 (password is march_turtle_madness)
 ```
 
+## Rules
+
+1. Submit writeups by e-mail to turtles at supernetworks.org (April 20th is the deadline)
+
+2. The best writeup along with the first two correct submissions will be awarded pis as prizes. Writeups should include functional exploits
+
+3. You can get the challenges here: https://github.com/spr-networks/turtles-march-2023 and a web-hosted version is available at https://turtles.supernetworks.org/march
+
 ## About
 @ ChatGPT
 Welcome to the electrifying WiFi Hacking Challenge, where participants test their prowess in network infiltration and compete for the grand prize: a cutting-edge Raspberry Pi! In this adrenaline-pumping competition, aspiring hackers will face a series of trials designed 
