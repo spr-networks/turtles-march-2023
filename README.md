@@ -3,8 +3,10 @@
 ## Play Online
 
 You can play online here [https://turtles.supernetworks.org/march](https://turtles.supernetworks.org/march)
+<img width="1328" alt="Screen Shot 2023-03-25 at 10 03 57 PM" src="https://user-images.githubusercontent.com/37549748/227756388-3d733639-b17f-4392-9e59-c177940d9b27.png">
 
-<img width="1588" alt="Screen Shot 2023-03-25 at 9 53 00 PM" src="https://user-images.githubusercontent.com/37549748/227756018-5ffdc6fc-8b2e-45c9-aae7-072177e5a372.png">
+
+<img width="1323" alt="Screen Shot 2023-03-25 at 10 03 42 PM" src="https://user-images.githubusercontent.com/37549748/227756372-9c8172f4-6db9-477c-a3ac-2177514e66ef.png">
 
 ## Self host with docker
 
