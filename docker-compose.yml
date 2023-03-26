@@ -1,0 +1,18 @@
+version: '3'
+
+networks:
+    default:
+      driver_opts:
+        com.docker.network.bridge.enable_icc: "false"
+
+services:
+  t1_start:
+    init: true
+    container_name: t1_start
+    build: t1_start
+    cap_add:
+      - NET_ADMIN
+      - NET_RAW
+    entrypoint: ["/bin/sleep", "1000000000"]
+    ports:
+      - "2222:22"
