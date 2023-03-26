@@ -13,6 +13,16 @@ You can use docker-compose.yml to self host your challenge
 * [January](https://github.com/spr-networks/turtles-january-23/)
 * [February](https://github.com/spr-networks/turtles-feb-2023/)
 
+## Dependencies
+See host-install.sh. Make sure wireless-regdb is installed on the host, along with the mac hwsim drivers. It was observed that missing the regulatory db on the host stops the challenges from running correctly.
+
+## Running the system
+```
+docker-compose up -d
+sudo ./setup.sh
+
+docker exec -it t1_start bash or ssh root@localhost -p 2222 (password is march_turtle_madness)
+```
 
 ## About
 @ ChatGPT
