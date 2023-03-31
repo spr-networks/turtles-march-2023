@@ -22,17 +22,16 @@ HINT: all PSKs are of the form turtle{???} where ??? is a password.
 HINT: there's some data to decode
 
 
-# Part 1 Challenge
+# Part 1 
 
-turtleap/go.py is a python AP written in scapy
+fakeap/go.py is a python AP written in scapy.
 
 It implements WPA2 using AES CCMP. 
 
 See if you can crack the PSK in turtle1-handshake.pcap
-The format of the PSK turtle{???} ... 
+The format of the PSK is turtle{???} where ??? is a password.
 
-HINT: it seems like some data has been corrupted and tools dont work
+# Part 2
 
-
-### More coming...
+turtleap is running on the system. Can you break into the network and hack the AP?
 
