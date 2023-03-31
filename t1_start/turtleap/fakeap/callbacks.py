@@ -120,4 +120,3 @@ class Callbacks(object):
 
         printd("Sending RAW packet...", Level.DEBUG)
         sendp(raw_packet, iface=self.ap.interface, verbose=False)
-

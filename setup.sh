@@ -23,8 +23,8 @@ ip link set hwsim0 netns $ATTACKER_PID
 set_iface_radio_group wlan0 2
 set_iface_radio_group wlan1 2
 
-move_iface_pid "wlan0" "t1_start"
+move_iface_pid "wlan0" "t1_ap"
 move_iface_pid "wlan1" "t1_start"
-
 docker exec -d t1_start /go.sh
+docker exec -d t1_ap /go.sh
 

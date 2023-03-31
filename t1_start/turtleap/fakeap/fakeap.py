@@ -116,5 +116,5 @@ class FakeAccessPoint(object):
         if not self.hidden:
             self.beaconTransmitter.start()
 
-        scapyconf.iface = self.interface
+        #scapyconf.iface = self.interface
         sniff(iface=self.interface, prn=self.callbacks.cb_recv_pkt, store=0, filter=self.bpffilter)

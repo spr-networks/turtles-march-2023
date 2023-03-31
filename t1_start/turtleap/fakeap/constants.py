@@ -11,9 +11,9 @@ eRSN = Dot11EltRSN(
         version=1,
         mfp_required=0,
         mfp_capable=0,
-        group_cipher_suite=RSNCipherSuite(cipher='CCMP-128'),
+        group_cipher_suite=RSNCipherSuite(cipher=0x20),
         nb_pairwise_cipher_suites=1,
-        pairwise_cipher_suites=RSNCipherSuite(cipher='CCMP-128'),
+        pairwise_cipher_suites=RSNCipherSuite(cipher=0x20),
                 nb_akm_suites=1,
         akm_suites=AKMSuite(suite='PSK')
     )

@@ -16,3 +16,12 @@ services:
     entrypoint: ["/bin/sleep", "1000000000"]
     ports:
       - "2222:22"
+  t1_ap:
+    init: true
+    container_name: t1_ap
+    build: t1_ap
+    cap_add:
+      - NET_ADMIN
+      - NET_RAW
+    entrypoint: ["/bin/sleep", "1000000000"]
+
