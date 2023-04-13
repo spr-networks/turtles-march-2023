@@ -10,7 +10,6 @@ RUN pip install scapy
 
 COPY pcaps /
 COPY turtleap /turtleap
-COPY fakeap /fakeap
 COPY readme.txt /root
 
 RUN echo "root:march_turtle_madness" | chpasswd
