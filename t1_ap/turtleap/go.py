@@ -17,7 +17,7 @@ import pyaes
 from salsa20 import Salsa20
 
 # yep....
-PSK=open("/dev/urandom","r").read(16)
+PSK=open("/dev/urandom","rb").read(16)
 
 rpyutils.set_debug_level(rpyutils.Level.DEBUG)
 
