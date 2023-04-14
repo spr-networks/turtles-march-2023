@@ -14,8 +14,14 @@ FROM-AP     0      1        DA                BSSID                SA      n/a
 WDS (br)    1      1        RA                TA                   DA      SA
 
 ```
-Transmitter = who put the frame onto the radio link
-Receiver = who received the frame from the radio link
 
-SA = sender address. can differ from transmitter
-DA = destination address. who should get it, differs from receiver
+#### Transmitter 
+= who put the frame onto the radio link
+
+#### Receiver 
+= who received the frame from the radio link
+
+### SA 
+= sender address. can differ from transmitter
+### DA 
+= destination address. who should get it, differs from receiver
