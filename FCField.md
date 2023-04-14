@@ -1,4 +1,4 @@
-Here are some useful notes on how to set up addr1/addr2/addr3 in your scapy packets. If they're wrong, the underlying mac80211-hwsim system will not send them.
+Here are some useful notes on how to set up addr1/addr2/addr3 in your scapy packets. If they're wrong, the underlying mac80211-hwsim system will not send them via the linux ieee80211 stack.
 
 
 https://www.oreilly.com/library/view/80211-wireless-networks/0596100523/ch04.html
