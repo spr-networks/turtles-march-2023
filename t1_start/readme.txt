@@ -24,7 +24,7 @@ HINT: there's some data to decode
 
 # Part 1 
 
-fakeap/go.py is a python AP written in scapy.
+turtle1-ap-pcap.py is a python AP written in scapy.
 
 It implements WPA2 using AES CCMP. 
 
@@ -34,4 +34,5 @@ The format of the PSK is turtle{???} where ??? is a password.
 # Part 2
 
 turtleap is running on the system. Can you break into the network and hack the AP?
+Use the code in https://github.com/spr-networks/turtles-march-2023/blob/main/t1_ap/turtleap/go.py
 
