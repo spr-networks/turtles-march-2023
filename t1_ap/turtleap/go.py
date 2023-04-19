@@ -120,7 +120,7 @@ def do_something(self, message_2):
     smac = bytes.fromhex(sta.replace(':', ''))
 
     stat = stations[sta]
-    stat.PMK = PMK = hashlib.pbkdf2_hmac('sha1', PSK.encode(), self.ap.get_ssid().encode(), 4096, 32)
+    stat.PMK = PMK = hashlib.pbkdf2_hmac('sha1', PSK, self.ap.get_ssid().encode(), 4096, 32)
     stat.PTK = PTK = customPRF512(PMK, amac, smac, stat.ANONCE, snonce)
     stat.KCK = PTK[:16]
     stat.KEK = PTK[16:32]
